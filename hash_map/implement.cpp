@@ -1,8 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-
-    map<int,string> mp;
+    //unordered_map<int,string> mp; it will not keep it in sorted manner 
+    map<int,string> mp; //it will keep the keys in sorted manner
     mp[1] = "apple";
     mp[2] = "mango";
     mp[3] = "cherry";
