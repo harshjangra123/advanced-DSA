@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    //it will create maxgeap by default
+    //it will create maxheap by default
     priority_queue<int> pq;
     pq.push(10);
     pq.push(30);
