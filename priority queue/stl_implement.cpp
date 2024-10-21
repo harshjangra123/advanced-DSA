@@ -7,6 +7,7 @@ int main(){
     pq.push(30);
     pq.push(20);
     pq.push(5);
+    
     pq.push(0);
 
     cout<<pq.top()<<endl;
