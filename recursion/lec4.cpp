@@ -15,7 +15,7 @@ void ss(int index,vector<int>& v,vector<int>& curr,vector<vector<int>>& g){
 }
 
 int main(){
-    vector<int> v = {1,3,2};
+    vector<int> v = {10,9,2,5,3,7,101,18};
     vector<vector<int>> g;
     vector<int> curr;
     ss(0,v,curr,g);
